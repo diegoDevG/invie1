@@ -1,0 +1,119 @@
+body{
+  margin: 0;
+  font-family: sans-serif;
+}
+header{
+  margin-top:0;
+}
+.menu{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #1C3643;
+  padding: 10px;
+  padding-bottom: 20px;
+  align-items: center;
+  color: white;
+  padding-right: 40px;
+  font-weight: bold;
+}
+
+.menu ul{
+  display: flex;
+
+}
+
+.menu ul li{
+  text-decoration: none;
+  padding: 1px 10px;
+  list-style-type: none;
+  border-right: 1px solid white;
+}
+
+.menu li a{
+  text-decoration: none;
+  color: white;
+  padding-right: 10px;
+  padding-left: -10px;
+  padding-top: 20px;
+
+}
+
+.menu li a:hover{
+	border-top: 4px solid #7DCD40;
+}
+
+.principal{
+  background-color: #EFEFEF;
+  width: 100%;
+  margin-top: -16px;
+
+}
+.presentacion{
+  background-image: url('../img/aprende-swift.jpg');
+  background-size: cover;
+  height: 400px;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  align-items:flex-end;
+}
+
+.contenedor{
+  width: 40%;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: rgba(239, 239, 239, 0.7);
+  color: #1C3643;
+
+}
+
+.contenido{
+  display: flex;
+  justify-content: space-between;
+  color: rgba(71, 69, 69, 0.7);
+}
+
+.contenedor p{
+  font-size: 12px;
+}
+
+.blog{
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  font-size: 12px;
+}
+
+.post{
+  margin-top: 20px;
+  color: #1C3643;
+}
+.post img{
+  width: 300px;
+}
+
+footer{
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+}
+
+footer span{
+  background-color: #edeaea;
+  padding:  5px 10px;
+  border: 1px solid #d8d6d6;
+}
+
+footer a{
+  text-decoration: none;
+  color: #1C3643;
+}
